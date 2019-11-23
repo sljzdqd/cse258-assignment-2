@@ -1,2 +1,4 @@
 gzip
 pandas
+matplotlib
+seaborn
