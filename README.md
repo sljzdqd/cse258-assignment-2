@@ -1,3 +1,3 @@
 # cse258-assignment-2
 
-[Amazon Review Data](https://nijianmo.github.io/amazon/index.html)
+[Amazon Review Data (Office Product)](http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Office_Products_5.json.gz)
