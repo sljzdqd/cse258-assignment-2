@@ -4,3 +4,12 @@
 
 1. Make a folder called `data`
 2. Download the .json.gz using above link into `data`
+
+## baseline v0
+
+1. Extract review from data
+2. Generate label (0,1) for each review. Rating 1-3 => 0; rating 4-5 => 1.
+3. Shuffle data and split train, dev and test data. (train: 70%, dev: 15%, test: 15%)
+4. Generate X vector by count vector from sklearn.
+5. Fit X vector and labels into logistic regression.
+6. Use class_weight='balanced' and get accuract 0.88.
