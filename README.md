@@ -13,3 +13,9 @@
 4. Generate X vector by count vector from sklearn.
 5. Fit X vector and labels into logistic regression.
 6. Use class_weight='balanced' and get accuract 0.88.
+
+## baseline v1
+
+1. Build new balanced train, dev and test data. The ratio between positive and negative sample is 1:1.
+2. Fit the new data into logistic regression model.
+3. The accuracy is 0.85.
