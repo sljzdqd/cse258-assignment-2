@@ -19,3 +19,8 @@
 1. Build new balanced train, dev and test data. The ratio between positive and negative sample is 1:1.
 2. Fit the new data into logistic regression model.
 3. The accuracy is 0.85.
+
+## rating baseline
+1. Build balanced train, dev and test data. The number of rating 4 and 5 is still slightly bigger than other rating.
+2. Fit into linear regression model.
+3. Use MSE as evaluation metric. The MSE is 1.50.
