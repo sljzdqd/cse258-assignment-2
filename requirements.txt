@@ -2,3 +2,4 @@ gzip
 pandas
 matplotlib
 seaborn
+nltk
