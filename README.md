@@ -24,3 +24,12 @@
 1. Build balanced train, dev and test data. The number of rating 4 and 5 is still slightly bigger than other rating.
 2. Fit into linear regression model.
 3. Use MSE as evaluation metric. The MSE is 1.48.
+
+## rating-latent factor model
+1. Simple (bias only) latent factor-based recommender: MSE 1.289
+2. Complete latent factor-based recommender: MSE 1.289
+
+## rating-BPR model(The implementation of the model is from Cornac)
+1. Constuct object train_set from train data and Cornac Dataset class
+2. Train the BPR model
+3. Predict using predict_rating() function. MSE: 0.845
