@@ -32,4 +32,4 @@
 ## rating-BPR model(The implementation of the model is from Cornac)
 1. Constuct object train_set from train data and Cornac Dataset class
 2. Train the BPR model
-3. Predict using predict_rating() function. MSE: 0.845
+3. Predict using predict_rating() function. MSE: 0.834
